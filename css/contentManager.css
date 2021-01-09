@@ -1,0 +1,46 @@
+.Content {
+	width: 80%;
+	margin-left: 5%;
+}
+
+.Content h1 {
+	font-size: 4vh;
+	color: #fff;
+	padding-bottom: 10px;
+	padding-top: 100px;
+}
+
+.Content h2 {
+	font-size: 3.5vh;
+	color: #fff;
+	padding-top: 60px;
+	padding-left: 40px;
+}
+
+.Content p {
+	font-size: 3vh;
+	color: #fff;
+	padding-top: 20px;
+	padding-left: 40px;
+}
+
+.Content .Image {
+	width: 60vh;
+	height: 30vh;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+.Content .ImagePortrait {
+	width: 30vh;
+	height: 60vh;
+	padding-top: 50px;
+	padding-left: 40px;
+}
+
+@media all and (max-width: 1000px) and (orientation: portrait) {
+  	.Content .Image {
+		width: 30vh;
+		height: 15vh;
+	}
+}

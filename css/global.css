@@ -1,0 +1,51 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+#bg {
+	z-index: -1;
+	position: fixed; 
+  	top: 0; 
+  	left: 0; 
+  	min-width: 100%;
+  	min-height: 100%;
+}
+
+ul {
+	z-index: 2;
+	text-align: center;
+	list-style-type: none;
+	margin-top: 20px;
+}
+
+ul li {
+	display: inline-block;
+	margin: 20px;
+}
+
+ul li a {
+	text-decoration: none;
+	color: #fff;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease; 
+	font-size: 100%;
+}
+
+ul li.active a {
+	background-color: #fff;
+	color: #000;
+}
+
+ul li a:hover {
+	background-color: #fff;
+	color: #000;
+}
+
+@media all and (max-width: 1100px) {
+  	ul li {
+		display: block;
+	}
+}
